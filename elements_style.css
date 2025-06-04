@@ -1,0 +1,92 @@
+.sectiune_element {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.chenar_element {
+    background-color: #94B6F7;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 376px;
+    height: 396px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    color: inherit;
+}
+
+.chenar_element img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.chenar_element p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 10px;
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chenar_element:hover, .chenar_element_custom:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sectiune_element_custom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.chenar_element_custom {
+    background-color: #F0F2F7;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 376px;
+    height: 396px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.chenar_element_custom p {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 20px 0 0;
+    text-align: center;
+    width: 80%;    
+}
+
+.chenar_element_custom object,
+.chenar_element_custom img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    object[data="/resources/sageata.svg"] {
+        transform: rotate(90deg);
+        transform-origin: center;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/png" href="/resources/logo.png">
+    <link rel="stylesheet" href="/base_style.css">
+    <link rel="stylesheet" href="/index_style.css">
+    <link rel="stylesheet" href="/contact_style.css">
+    <script type="text/javascript" src="/formular.js"></script>
+    <script type="text/javascript" src="/hamburger_menu.js" defer></script>
+</head>
+<body>
+    <header class="header_index">
+        <nav class="navbar">
+            <ul id="nav_links">
+                    <div class="stema">
+                        <img src="/resources/logo.png" alt="Stema Cluj">
+                        <p>DPetrom</p>
+                    </div>
+                    <div class="hamburger" onclick="arata_meniu()">
+                        &#9776;
+                    </div>
+                    <li class="navbar_item"><a href="/index.html">Pagina Principală</a></li>
+                    <li class="navbar_item"><a href="/carburanti/carburanti_index.html">Carburanți</a></li>
+                    <li class="navbar_item"><a href="/campanii/campanii.html">Campanii</a></li>
+                    <li class="navbar_item"><a href="/statii/statii.html">Stații</a></li>
+                    <li class="navbar_item"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="chenar_contact">
+            <h1>Contact</h1>
+            <form name="formular_contact">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name"><br></br>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email_text" name="email_text"><br></br>
+                <label for="phone">Telefon:</label>
+                <input type="tel" id="phone" name="phone"><br></br>
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message"></textarea><br></br>
+                <input type="submit" value="Trimite">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a>©2025 DPetrom Foica David</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.chenar_contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F0F2F7;
+}
+
+.chenar_contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.chenar_contact label, h1 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.chenar_contact input[type="text"],
+.chenar_contact input[type="tel"],
+.chenar_contact textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chenar_contact input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0043B7;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.chenar_contact input[type="submit"]:hover {
+    background-color: #2676FF;
+}
